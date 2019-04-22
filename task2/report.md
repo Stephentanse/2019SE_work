@@ -5,7 +5,7 @@
 **配置文件**
 
 
-![markdown](https://www.mdeditor.com/images/logos/markdown.png "markdown")
+![markdown](1.png)
 
 使用了20個綫程，循環次數為1。HTTP的請求有兩個，一個是對wordladder發送請求，另一個是對hello頁面發送的請求
 
