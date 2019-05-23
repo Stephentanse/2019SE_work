@@ -1,1 +1,6 @@
 在用别人的项目之前在npm run serve之前要先cnpm install
+
+想要实现
+<router-link :to='/bookdetail/'+item.id></router-link>
+这样的路由时，可以用下面这个语句来实现
+<router-link :to='`/bookdetail/${item.id}`'></router-link>
