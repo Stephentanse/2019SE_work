@@ -1,0 +1,2 @@
+repository中默认的方法无法get..byUsername。可以自定义这样的接口，spring boot会自动帮我们实现
+https://blog.csdn.net/youngsend/article/details/51832581
