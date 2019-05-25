@@ -1,2 +1,23 @@
 repository中默认的方法无法get..byUsername。可以自定义这样的接口，spring boot会自动帮我们实现
 https://blog.csdn.net/youngsend/article/details/51832581
+<hr>
+springboot 中如果要分目录结构的话，application要放在最外面，不要放到包中。 
+me
+  +- hugh
+     +- Application.java
+     |
+     +- domain
+     |  +- Customer.java
+     |  +- CustomerRepository.java
+     |
+     +- service
+     |  +- CustomerService.java
+     |
+     +- web
+     |  +- CustomerController.java
+     |
+--------------------- 
+作者：hugh Lee 
+来源：CSDN 
+原文：https://blog.csdn.net/qq_33530388/article/details/73291912 
+版权声明：本文为博主原创文章，转载请附上博文链接！
